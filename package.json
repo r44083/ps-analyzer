@@ -1,0 +1,24 @@
+{
+    "name": "ps-analyzer",
+    "version": "0.0.1",
+    "description": "Web-based interactive analyzer of \"ps -l\" linux output",
+    "keywords": [],
+    "license": "ISC",
+    "author": "r44083",
+    "private": true,
+    "scripts": {
+        "build": "npx webpack",
+        "debug": "npx webpack-dev-server"
+    },
+    "devDependencies": {
+        "html-webpack-plugin": "^3.2.0",
+        "webpack": "^4.41.6",
+        "webpack-cli": "^3.3.11",
+        "webpack-dev-server": "^3.10.3"
+    },
+    "browserslist": [
+        "last 2 version",
+        "> 1%",
+        "ie >= 11"
+    ]
+}

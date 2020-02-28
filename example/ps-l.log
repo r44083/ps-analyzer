@@ -1,0 +1,136 @@
+root@mygateway:~# ps -l > 1.log
+root@mygateway:~# cat 1.log
+S   UID   PID  PPID   VSZ   RSS TTY   STIME TIME     CMD
+S     0     1     0  3064  1072 0:0   Feb21 00:00:02 init
+S     0     2     0     0     0 0:0   Feb21 00:00:00 [kthreadd]
+S     0     3     2     0     0 0:0   Feb21 00:00:01 [ksoftirqd/0]
+S     0     5     2     0     0 0:0   Feb21 00:00:00 [kworker/0:0H]
+S     0     7     2     0     0 0:0   Feb21 00:00:20 [rcu_sched]
+S     0     8     2     0     0 0:0   Feb21 00:00:00 [rcu_bh]
+S     0     9     2     0     0 0:0   Feb21 00:00:00 [migration/0]
+S     0    10     2     0     0 0:0   Feb21 00:00:00 [lru-add-drain]
+S     0    11     2     0     0 0:0   Feb21 00:00:00 [watchdog/0]
+S     0    12     2     0     0 0:0   Feb21 00:00:00 [cpuhp/0]
+S     0    13     2     0     0 0:0   Feb21 00:00:00 [cpuhp/1]
+S     0    14     2     0     0 0:0   Feb21 00:00:00 [watchdog/1]
+S     0    15     2     0     0 0:0   Feb21 00:00:01 [migration/1]
+S     0    16     2     0     0 0:0   Feb21 00:00:00 [ksoftirqd/1]
+S     0    18     2     0     0 0:0   Feb21 00:00:00 [kworker/1:0H]
+S     0    19     2     0     0 0:0   Feb21 00:00:00 [kdevtmpfs]
+S     0   341     2     0     0 0:0   Feb21 00:00:00 [khungtaskd]
+S     0   342     2     0     0 0:0   Feb21 00:00:00 [oom_reaper]
+S     0   343     2     0     0 0:0   Feb21 00:00:00 [writeback]
+S     0   344     2     0     0 0:0   Feb21 00:00:00 [kcompactd0]
+S     0   345     2     0     0 0:0   Feb21 00:00:00 [crypto]
+S     0   346     2     0     0 0:0   Feb21 00:00:00 [bioset]
+S     0   347     2     0     0 0:0   Feb21 00:00:00 [kblockd]
+S     0   378     2     0     0 0:0   Feb21 00:00:00 [ata_sff]
+S     0   403     2     0     0 0:0   Feb21 00:00:00 [cfg80211]
+S     0   406     2     0     0 0:0   Feb21 00:00:00 [watchdogd]
+S     0   422     2     0     0 0:0   Feb21 00:00:00 [rpciod]
+S     0   423     2     0     0 0:0   Feb21 00:00:00 [xprtiod]
+S     0   437     2     0     0 0:0   Feb21 00:00:00 [kswapd0]
+S     0   438     2     0     0 0:0   Feb21 00:00:00 [vmstat]
+S     0   507     2     0     0 0:0   Feb21 00:00:00 [nfsiod]
+S     0  1116     2     0     0 0:0   Feb21 00:00:00 [bioset]
+S     0  1121     2     0     0 0:0   Feb21 00:00:00 [bioset]
+S     0  1126     2     0     0 0:0   Feb21 00:00:00 [bioset]
+S     0  1131     2     0     0 0:0   Feb21 00:00:00 [bioset]
+S     0  1136     2     0     0 0:0   Feb21 00:00:00 [bioset]
+S     0  1141     2     0     0 0:0   Feb21 00:00:00 [bioset]
+S     0  1146     2     0     0 0:0   Feb21 00:00:00 [bioset]
+S     0  1151     2     0     0 0:0   Feb21 00:00:00 [bioset]
+S     0  1156     2     0     0 0:0   Feb21 00:00:00 [bioset]
+S     0  1161     2     0     0 0:0   Feb21 00:00:00 [bioset]
+S     0  1166     2     0     0 0:0   Feb21 00:00:00 [bioset]
+S     0  1171     2     0     0 0:0   Feb21 00:00:00 [bioset]
+S     0  1176     2     0     0 0:0   Feb21 00:00:00 [bioset]
+S     0  1181     2     0     0 0:0   Feb21 00:00:00 [bioset]
+S     0  1186     2     0     0 0:0   Feb21 00:00:00 [bioset]
+S     0  1191     2     0     0 0:0   Feb21 00:00:00 [bioset]
+S     0  1196     2     0     0 0:0   Feb21 00:00:00 [bioset]
+S     0  1201     2     0     0 0:0   Feb21 00:00:00 [bioset]
+S     0  1206     2     0     0 0:0   Feb21 00:00:00 [bioset]
+S     0  1211     2     0     0 0:0   Feb21 00:00:00 [spi32766]
+S     0  1286     2     0     0 0:0   Feb21 00:00:00 [irq/262-brcmstb]
+S     0  1298     2     0     0 0:0   Feb21 00:00:00 [irq/67-mmc0]
+S     0  1304     2     0     0 0:0   Feb21 00:00:00 [rpc_init]
+S     0  1305     2     0     0 0:0   Feb21 00:00:00 [rpc_misc]
+S     0  1306     2     0     0 0:0   Feb21 00:00:00 [rpc_flash]
+S     0  1307     2     0     0 0:0   Feb21 00:00:00 [rpc_erouter]
+S     0  1308     2     0     0 0:0   Feb21 00:00:00 [rpc_wpsctl]
+S     0  1320     2     0     0 0:0   Feb21 00:00:00 [mdqmrx0]
+S     0  1321     2     0     0 0:0   Feb21 00:00:00 [mdqmrx1]
+S     0  1322     2     0     0 0:0   Feb21 00:00:00 [mdqmrx2]
+S     0  1336     2     0     0 0:0   Feb21 00:00:00 [ipv6_addrconf]
+S     0  1356     2     0     0 0:0   Feb21 00:00:00 [ubi_bgt0d]
+S     0  1359     2     0     0 0:0   Feb21 00:00:00 [bioset]
+S     0  1364     2     0     0 0:0   Feb21 00:00:00 [bioset]
+S     0  1404     2     0     0 0:0   Feb21 00:00:00 [ubifs_bgt0_0]
+S     0  1406     1  3064   956 0:0   Feb21 00:00:00 {rcS} /bin/sh /etc/init.d
+S     0  1407     1  3408  1960 ttyS0 Feb21 00:00:00 /bin/login -- root
+S     0  1409  1406  3148  1096 0:0   Feb21 00:00:00 logger -s -p 6 -t sysinit
+S     0  1414     2     0     0 0:0   Feb21 00:00:00 [ubifs_bgt0_1]
+S     0  1525     2     0     0 0:0   Feb21 00:00:00 [ubi_bgt1d]
+S     0  1526     2     0     0 0:0   Feb21 00:00:00 [bioset]
+S     0  1533     2     0     0 0:0   Feb21 00:00:00 [ubifs_bgt1_0]
+S     0  1554     2     0     0 0:0   Feb21 00:00:00 [ubi_bgt2d]
+S     0  1557     2     0     0 0:0   Feb21 00:00:00 [bioset]
+S     0  1562     2     0     0 0:0   Feb21 00:00:00 [ubifs_bgt2_0]
+S     0  1732     1  5144  3108 0:0   Feb21 00:01:37 firewall-app
+S     0  1735     1  1672  1612 0:0   Feb21 00:00:01 /bin/wdmd -f /etc/wdmd_ta
+S     0  1750     1  2784  1732 0:0   Feb21 00:01:08 syslog-ng -p /var/run/sys
+S 65534  1763     1  2588  1288 0:0   Feb21 00:00:00 /usr/sbin/portmap
+S     0  1915     2     0     0 0:0   Feb21 00:00:00 [ubi_bgt3d]
+S     0  1918     2     0     0 0:0   Feb21 00:00:00 [bioset]
+S     0  1925     2     0     0 0:0   Feb21 00:00:00 [ubifs_bgt3_1]
+S     0  1989     2     0     0 0:0   Feb21 00:00:00 [ubi_bgt4d]
+S     0  1992     2     0     0 0:0   Feb21 00:00:00 [bioset]
+S     0  1998     2     0     0 0:0   Feb21 00:00:00 [ubifs_bgt4_0]
+S     0  2064     2     0     0 0:0   Feb21 00:00:00 [ubi_bgt5d]
+S     0  2066     2     0     0 0:0   Feb21 00:00:00 [bioset]
+S     0  2074     2     0     0 0:0   Feb21 00:00:00 [ubifs_bgt5_0]
+S     0  2082     1  1608    44 0:0   Feb21 00:00:04 /bin/rprogramstore -i pri
+S     0  2088     1  1636    52 0:0   Feb21 00:00:03 /bin/rnonvolhost privbr:0
+S     0  2094     1 20140    60 0:0   Feb21 00:00:00 /bin/mboxassist
+S     0  2101     1 28684  1244 0:0   Feb21 00:00:00 /bin/bootassist -N /mnt/c
+S  1014  2110     1  4656  2224 0:0   Feb21 00:03:10 /usr/sbin/ismd
+S     0  2124     2     0     0 0:0   Feb21 00:00:22 [dhd_watchdog_th]
+S     0  2136     2     0     0 0:0   Feb21 00:00:00 [wler_thread0]
+S     0  2137     2     0     0 0:0   Feb21 00:00:15 [dhd_watchdog_th]
+S     0  2147     2     0     0 0:0   Feb21 00:00:00 [wler_thread1]
+S     0  2165     1  3064   680 0:0   Feb21 00:00:00 {hg6d_start} /bin/sh /usr
+S     0  2168  2165 31616 19580 0:0   Feb21 00:02:30 hg6d -d
+S     0  2360     1  3064   684 0:0   Feb21 00:00:00 udpsvd -c 2 -E 172.31.255
+S     0  2362  2168  9612  5032 0:0   Feb21 00:01:41 halwifi
+S     0  2396  2168  4416  2588 0:0   Feb21 00:01:19 icmpv6d
+S     0  2519  2168  3152  1832 0:0   Feb21 00:00:22 wl_decrypt_monitor -t 5 -
+S     0  2744  2168  3948  2088 0:0   Feb21 00:00:00 latticeframework -d
+S     0  2861  2744 22404  4476 0:0   Feb21 00:01:25 intf_docsis_erouter
+S     0  3394  2168  7068  3644 0:0   Feb21 00:00:02 tr69d
+S 65534  3446  2168  2792  1776 0:0   Feb21 01:08:09 dnsmasq -k -b -c100 -r/tm
+S     0  3496  2168  5888  2436 0:0   Feb21 00:00:45 upnpscand -q -l -t 1800 B
+S     0  3505  2168  3820  1852 0:0   Feb21 00:00:00 cifsd -n
+S     0  3506  2168 13060  4096 0:0   Feb21 00:01:00 swand -i 192.168.1.1
+S     0  3514     2     0     0 0:0   Feb21 00:00:09 [kcifsd]
+S     0  3682     1  7908  1396 0:0   Feb21 00:02:16 powerman -v1 -eeth0 eth1
+S     0  3797     2     0     0 0:0   Feb21 00:00:21 [kworker/1:4]
+S     0  3868  2168  4232  2028 0:0   Feb21 00:00:00 /usr/sbin/rdisc6 -i cm0 -
+S     0  3869  2168  2480  1508 0:0   Feb21 00:00:09 omcproxy cm0 eth1 eth2 et
+S  1009  3877  2168  3364  2120 0:0   Feb21 00:00:00 /usr/sbin/dhclient -d -cf
+S     0  3921  2168  4324  3212 0:0   Feb21 00:00:04 /usr/sbin/dhclient -6 -N
+S  1009  3961  2168  5120  3660 0:0   Feb21 00:00:42 /usr/sbin/dhcpd -f -cf /o
+S     0  3962  2168 22356  1984 0:0   Feb21 00:00:09 upnpd -f -r 724f4351 Devi
+S     0  4152  2168  4908  2908 0:0   Feb21 00:00:05 /usr/sbin/lighttpd -f /et
+S     0  4247  2168  3936  2500 0:0   Feb21 00:00:35 /usr/sbin/dhcpd -6 -f -cf
+S     0  5775  1407  3148  1928 ttyS0 Feb21 00:00:00 -ash
+S     0 12381  2362  2212  1624 0:0   Feb21 00:01:54 eapd -F
+S     0 12384  2362  4532  2708 0:0   Feb21 00:00:14 hostapd -dd -s /tmp/wl0_h
+S     0 12387  2362  4532  2812 0:0   Feb21 00:00:07 hostapd -dd -s /tmp/wl1_h
+S     0 12388  2362  3200  1644 0:0   Feb21 00:01:56 wpsmon
+S     0 15527     2     0     0 0:0   Feb21 00:00:05 [kworker/1:1]
+S     0 22657     2     0     0 0:0   16:04 00:00:00 [kworker/u4:0]
+S     0 22929     2     0     0 0:0   16:09 00:00:00 [kworker/u4:1]
+R     0 25474  5775  3068  1788 ttyS0 14:26 00:00:00 ps -l
+S     0 27619     2     0     0 0:0   Feb21 00:00:10 [kworker/0:1]
+S     0 28171     2     0     0 0:0   Feb21 00:00:00 [kworker/0:2]
