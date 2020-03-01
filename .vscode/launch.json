@@ -13,7 +13,8 @@
             "webRoot": "${workspaceRoot}",
             "runtimeArgs":
             [
-                "--auto-open-devtools-for-tabs"
+                "--auto-open-devtools-for-tabs",
+                "--force-dark-mode"
             ]
         }
     ]
